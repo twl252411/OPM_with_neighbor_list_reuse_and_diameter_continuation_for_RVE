@@ -1,4 +1,4 @@
-# Collision-Diameter Continuation for Periodic Particulate RVEs
+# An accelerated OPM method for generating dense RVEs using neighbor-list reuse and diameter continuation
 
 ## 1. Overview
 
