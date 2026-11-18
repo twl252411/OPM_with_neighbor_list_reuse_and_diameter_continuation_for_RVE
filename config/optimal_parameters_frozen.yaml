@@ -1,0 +1,24 @@
+schema_version: '1.0'
+skin_ratio_2d: 0.125
+skin_ratio_3d: 0.1
+neighbor_safety_factor: 0.8
+phi_easy_2d: 0.55
+phi_easy_3d: 0.42
+lambda_min: 0.75
+delta_lambda_initial: 0.02
+delta_lambda_max: 0.08
+stage_overlap_ratio: 0.001
+precleanup_overlap_ratio: 3.0e-08
+max_move_ratio: 0.05
+max_move_skin_ratio: 0.2
+phi_switch_2d: 0.26
+phi_switch_3d: 0.2
+phi_continuation_2d: 0.7
+phi_continuation_3d: 0.62
+original_alpha: 0.4
+strict_overlap_ratio: 1.0e-08
+timeout_seconds_2d: 300.0
+timeout_seconds_3d: 900.0
+environment_hash: cc0a57533c96bb32cde0c91d5b9ecdcb31439601f298e897b401c14254fad7cc
+source_hash: 57e3831dd616261618a766cc6b641727cc469cc928db0a2158323182df77e3d1
+notes: Reviewed defaults; replace after calibration scans.
